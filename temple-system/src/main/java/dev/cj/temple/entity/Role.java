@@ -27,15 +27,7 @@ public class Role {
     
     @Column(name = "update_time")
     private Date updateTime;
-    
-    @ManyToMany(mappedBy = "roles")
-    private List<User> users;
-    
-    @ManyToMany
-    @JoinTable(name = "sys_role_menu",
-            joinColumns = @JoinColumn(name = "role_id"),
-            inverseJoinColumns = @JoinColumn(name = "menu_id"))
-    private List<Menu> menus;
+
     
     @PrePersist
     public void prePersist() {

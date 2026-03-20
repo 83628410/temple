@@ -740,5 +740,138 @@
 		"de": "Klick die auswahl an!",
 		"fr": "Cliquez pour sélectionner",
 		"it": "Cliccare sulla selezione"
+	},
+	"flrstw7": {
+		"zh-cn": "请输入角色名称",
+		"en": "Please enter the role name",
+		"de": "Geben sie einen namen für eine rolle ein",
+		"fr": "Veuillez entrer un nom de rôle",
+		"it": "Inserire il nome del ruolo"
+	},
+	"mip3n6h": {
+		"zh-cn": "角色名称长度应在2-50个字符之间",
+		"en": "The length of the character name should be between 2 and 50 characters",
+		"de": "Der name der rolle sollte zwischen 2 und 50 zeichen lang sein",
+		"fr": "Le nom du personnage doit être compris entre 2 et 50 caractères",
+		"it": "La lunghezza della denominazione dei ruoli deve essere compresa tra i 2 e i 50 caratteri"
+	},
+	"nz4lpec": {
+		"zh-cn": "角色描述最多200个字符",
+		"en": "The character description should be no more than 200 characters",
+		"de": "Profil nicht mehr als 200 zeichen",
+		"fr": "Description du rôle max. 200 caractères",
+		"it": "Descrizione del ruolo fino a 200 caratteri"
+	},
+	"d3k9vu9": {
+		"zh-cn": "获取角色列表失败：",
+		"en": "Failed to obtain the character list",
+		"de": "Zugriff auf die rollenliste:",
+		"fr": "Échec de l’obtention de la liste des rôles:",
+		"it": "Non è stato possibile ottenere l’elenco dei ruoli:"
+	},
+	"9l5v8c8": {
+		"zh-cn": "获取角色列表失败",
+		"en": "Failed to obtain the character list",
+		"de": "Zugriff auf die rollenliste fehlgeschlagen",
+		"fr": "Échec à obtenir la liste des rôles",
+		"it": "Non è stato possibile ottenere l’elenco dei ruoli"
+	},
+	"vyfvpx6": {
+		"zh-cn": "角色更新成功",
+		"en": "Character update successful",
+		"de": "Personalerneuerung ist erfolgreich.",
+		"fr": "Rôle mis à jour avec succès",
+		"it": "Il rinnovamento dei ruoli"
+	},
+	"w63okj6": {
+		"zh-cn": "角色新增成功",
+		"en": "New character added successfully",
+		"de": "Aussichtsloser zuschnitt.",
+		"fr": "Rôle ajouté avec succès",
+		"it": "Nuovi ruoli per il successo"
+	},
+	"l38pqka": {
+		"zh-cn": "确定要删除该角色吗？",
+		"en": "Are you sure you want to delete this character?",
+		"de": "Sollen wir die rolle wirklich entfernen?",
+		"fr": "Sûr de vouloir supprimer ce rôle?",
+		"it": "È sicuro che tale ruolo verrà soppresso?"
+	},
+	"ydvolp6": {
+		"zh-cn": "角色删除成功",
+		"en": "The character deletion was successful.",
+		"de": "Löschen der rolle erfolgreich.",
+		"fr": "Rôle supprimé avec succès",
+		"it": "Cancellazione di ruolo successo"
+	},
+	"1olrim6": {
+		"zh-cn": "新增角色",
+		"en": "New character added",
+		"de": "Mit neuer rolle.",
+		"fr": "Nouveaux rôles ajoutés",
+		"it": "Nuovi ruoli"
+	},
+	"hxb80z4": {
+		"zh-cn": "角色名称",
+		"en": "Character name",
+		"de": "Nach namen?",
+		"fr": "Nom du rôle",
+		"it": "Denominazione del ruolo"
+	},
+	"hxe0v54": {
+		"zh-cn": "角色描述",
+		"en": "Character description",
+		"de": "Was ist ein charakterprofil?",
+		"fr": "Description du rôle",
+		"it": "Descrizione del ruolo"
+	},
+	"eymx2": {
+		"zh-cn": "启用",
+		"en": "Enabled",
+		"de": "Einschalten.",
+		"fr": "Le lancement",
+		"it": "attivazione"
+	},
+	"lb5z2": {
+		"zh-cn": "禁用",
+		"en": "Disabled",
+		"de": "Deaktivieren.",
+		"fr": "interdits",
+		"it": "vietate"
+	},
+	"ar84e54": {
+		"zh-cn": "创建时间",
+		"en": "Creation time",
+		"de": "Zeit kreieren?",
+		"fr": "Temps de création",
+		"it": "Creazione del tempo"
+	},
+	"devbay4": {
+		"zh-cn": "更新时间",
+		"en": "Update time",
+		"de": "Aktualisiert die zeit!",
+		"fr": "Temps de mise à jour",
+		"it": "aggiornamento"
+	},
+	"gmqxqz4": {
+		"zh-cn": "编辑角色",
+		"en": "\"Editing role\"",
+		"de": "Die besetzung",
+		"fr": "Rôle de l’éditeur",
+		"it": "Ruolo editoriale"
+	},
+	"d7di6m4": {
+		"zh-cn": "新增角色",
+		"en": "New character added",
+		"de": "Mit neuer rolle.",
+		"fr": "Nouveaux rôles ajoutés",
+		"it": "Nuovi ruoli"
+	},
+	"flozzq7": {
+		"zh-cn": "请输入角色描述",
+		"en": "Please enter the role description",
+		"de": "Geben sie eine beschreibung ein",
+		"fr": "Veuillez entrer la description du rôle",
+		"it": "Inserire la descrizione del ruolo"
 	}
 }

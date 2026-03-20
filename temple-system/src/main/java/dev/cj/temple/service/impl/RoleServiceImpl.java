@@ -28,7 +28,7 @@ public class RoleServiceImpl implements RoleService {
         
         if (roleDTO.getMenuIds() != null) {
             List<Menu> menus = menuRepository.findAllById(List.of(roleDTO.getMenuIds()));
-            role.setMenus(menus);
+           
         }
         
         return roleRepository.save(role);
@@ -42,7 +42,7 @@ public class RoleServiceImpl implements RoleService {
         
         if (roleDTO.getMenuIds() != null) {
             List<Menu> menus = menuRepository.findAllById(List.of(roleDTO.getMenuIds()));
-            role.setMenus(menus);
+          
         }
         
         return roleRepository.save(role);
