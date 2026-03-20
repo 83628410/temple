@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // 基础配置
+    "baseUrl": ".", // 解析非相对模块的基础目录
+    "paths": {
+      "@/*": ["src/*"] // 路径别名配置，@ 指向 src 目录
+    },
+    "target": "ES2020", // 编译目标 ES 版本
+    "useDefineForClassFields": true, // 使用 defineProperty 定义类字段
+    "module": "ESNext", // 模块系统
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], // 包含的库文件
+    "skipLibCheck": true, // 跳过库文件的类型检查
+
+    /* Bundler mode */
+    "moduleResolution": "bundler", // 使用打包工具的模块解析策略
+    "allowImportingTsExtensions": true, // 允许导入 .ts 扩展名的文件
+    "resolveJsonModule": true, // 允许导入 JSON 模块
+    "isolatedModules": true, // 每个文件作为独立模块处理
+    "noEmit": true, // 不生成输出文件
+    "jsx": "preserve", // JSX 处理方式
+
+    /* Linting */
+    "strict": true, // 启用严格模式
+    "noUnusedLocals": true, // 检查未使用的局部变量
+    "noUnusedParameters": true, // 检查未使用的参数
+    "noFallthroughCasesInSwitch": true // 检查 switch 语句中的穿透情况
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"], // 包含的文件
+  "references": [{ "path": "./tsconfig.node.json" }] // 引用其他 tsconfig 文件
+}

@@ -1,0 +1,744 @@
+{
+	"c7ysa3": {
+		"zh-cn": "仪表盘",
+		"en": "Dashboard",
+		"de": "Das armaturenbrett.",
+		"fr": "Tableau de bord",
+		"it": "cruscotto"
+	},
+	"ruu752a": {
+		"zh-cn": "登录过期，请重新登录",
+		"en": "Your login has expired. Please log in again",
+		"de": "Einloggen ist verboten. Bitte loggen sie sich wieder ein",
+		"fr": "Connexion expirée, veuillez vous reconnecter",
+		"it": "Logon già scaduto, per piacere"
+	},
+	"hn562": {
+		"zh-cn": "提示",
+		"en": "Hint",
+		"de": "Tipp.",
+		"fr": "rappel",
+		"it": "tip"
+	},
+	"gahcbn4": {
+		"zh-cn": "系统出错",
+		"en": "System error",
+		"de": "Eine betriebsstörung.",
+		"fr": "Erreur du système",
+		"it": "Errori nel sistema"
+	},
+	"qylb2": {
+		"zh-cn": "首页",
+		"en": "Home Page",
+		"de": "Die titelseite.",
+		"fr": "La page de couverture",
+		"it": "pagina"
+	},
+	"f6y6dw4": {
+		"zh-cn": "用户管理",
+		"en": "User Management",
+		"de": "Regieren der benutzer.",
+		"fr": "Gestion des utilisateurs",
+		"it": "Gestione degli utenti"
+	},
+	"gar1ro4": {
+		"zh-cn": "系统设置",
+		"en": "System Settings",
+		"de": "Raum-system:",
+		"fr": "Configuration du système",
+		"it": "Impostazione del sistema"
+	},
+	"ns7y94": {
+		"zh-cn": " 首页 ",
+		"en": "Home Page",
+		"de": "Die titelseite.",
+		"fr": "La page de couverture",
+		"it": "pagina"
+	},
+	"gao8uh4": {
+		"zh-cn": "系统管理",
+		"en": "System Management",
+		"de": "Hartes system",
+		"fr": "Gestion du système",
+		"it": "Gestione dei sistemi"
+	},
+	"e2e4fk6": {
+		"zh-cn": "打开搜索面板",
+		"en": "Open the search panel",
+		"de": "Öffne die suchentafel.",
+		"fr": "Ouvrir le panneau de recherche",
+		"it": "Apertura del quadro di ricerca"
+	},
+	"d5itbz4": {
+		"zh-cn": "搜索菜单",
+		"en": "Search menu",
+		"de": "Suche nach dem menü.",
+		"fr": "Rechercher le menu",
+		"it": "Menu di ricerca"
+	},
+	"bmen6b8": {
+		"zh-cn": " 暂无搜索结果 ",
+		"en": "There are no search results for the moment",
+		"de": "Barnes fügt keine suchergebnisse ein",
+		"fr": "Aucun résultat de recherche",
+		"it": "Risultati provvisori non disponibili"
+	},
+	"3h3xma6": {
+		"zh-cn": " 搜索历史 ",
+		"en": "Search history",
+		"de": "Suche nach geschichte",
+		"fr": "Historique des recherches",
+		"it": "Ricerca storica"
+	},
+	"p1j42": {
+		"zh-cn": "选择",
+		"en": "\"Choose\"",
+		"de": "Durch unsere wahl.",
+		"fr": "Le choix",
+		"it": "scelta"
+	},
+	"ehx72": {
+		"zh-cn": "切换",
+		"en": "Switch",
+		"de": "Aus.",
+		"fr": "commutation",
+		"it": "commutazione"
+	},
+	"eod62": {
+		"zh-cn": "关闭",
+		"en": "\"Close",
+		"de": "Noch näher.",
+		"fr": "La fermeture",
+		"it": "chiusura"
+	},
+	"hxhx7p4": {
+		"zh-cn": "角色管理",
+		"en": "Role Management",
+		"de": "Kollaboratives management.",
+		"fr": "Gestion des rôles",
+		"it": "Gestione dei ruoli"
+	},
+	"gzj3um4": {
+		"zh-cn": "菜单管理",
+		"en": "Menu Management",
+		"de": "Alles über dich.",
+		"fr": "Gestion des menus",
+		"it": "Gestione dei menu"
+	},
+	"d9axsn4": {
+		"zh-cn": "日志管理",
+		"en": "Log Management",
+		"de": "Mit logbuchverwaltung und",
+		"fr": "Gestion des logs",
+		"it": "Gestione dei giornali di bordo"
+	},
+	"dure2": {
+		"zh-cn": "中文",
+		"en": "Chinese",
+		"de": "Das ist chinesisch.",
+		"fr": "chinois",
+		"it": "In cinese"
+	},
+	"mtva2": {
+		"zh-cn": "英文",
+		"en": "English",
+		"de": "Englisch.",
+		"fr": "En anglais",
+		"it": "In inglese"
+	},
+	"lpqct4": {
+		"zh-cn": " 语言 ",
+		"en": "\"Language\"",
+		"de": "Sprache.",
+		"fr": "Langue (S)",
+		"it": "lingua"
+	},
+	"h1qu2": {
+		"zh-cn": "德语",
+		"en": "German",
+		"de": "Das ist Deutsch.",
+		"fr": "En allemand",
+		"it": "Il tedesco"
+	},
+	"ja2g2": {
+		"zh-cn": "法语",
+		"en": "French",
+		"de": "Französisch?",
+		"fr": "En français",
+		"it": "francese"
+	},
+	"cm69cs4": {
+		"zh-cn": "意大利语",
+		"en": "\"Italian\"",
+		"de": "Sag es auf russisch.",
+		"fr": "Langue italienne",
+		"it": "italiano"
+	},
+	"ok372": {
+		"zh-cn": "语言",
+		"en": "\"Language\"",
+		"de": "Sprache.",
+		"fr": "Langue (S)",
+		"it": "lingua"
+	},
+	"2smbc86": {
+		"zh-cn": "加载中请稍后",
+		"en": "Loading, please wait a moment",
+		"de": "Wird bitte später geladen",
+		"fr": "Chargement s’il vous plaît plus tard",
+		"it": "Si prega di caricare più tardi"
+	},
+	"7grhuz6": {
+		"zh-cn": "请输入用户名",
+		"en": "Please enter your username",
+		"de": "Bitte geben sie einen benutzernamen ein",
+		"fr": "Veuillez entrer votre nom d’utilisateur",
+		"it": "Digitate il nome dell’utente"
+	},
+	"2ymdf3h": {
+		"zh-cn": "用户名长度在 3 到 20 个字符",
+		"en": "The length of a username should be between 3 and 20 characters",
+		"de": "Sie können nur mit einer länge Von 3 bis 20 zeichen angegeben werden",
+		"fr": "Le nom d’utilisateur doit contenir entre 3 et 20 caractères",
+		"it": "La lunghezza del nome utente varia da 3 a 20 caratteri"
+	},
+	"2j9vj05": {
+		"zh-cn": "请输入密码",
+		"en": "Please enter the password.",
+		"de": "Code eingeben.",
+		"fr": "Veuillez entrer le code",
+		"it": "Digitare la parola d’ordine"
+	},
+	"gztydng": {
+		"zh-cn": "密码长度在 6 到 20 个字符",
+		"en": "The password length is between 6 and 20 characters",
+		"de": "Das passwort hat zwischen 6 und 20 zeichen",
+		"fr": "Mot de passe entre 6 et 20 caractères",
+		"it": "La password dura da 6 a 20 caratteri"
+	},
+	"fcewjt4": {
+		"zh-cn": "登录成功",
+		"en": "Login successful",
+		"de": "Erfolgreich im logbuch.",
+		"fr": "Connexion réussie",
+		"it": "Il successo del log on"
+	},
+	"gan98e4": {
+		"zh-cn": "系统登录",
+		"en": "System login",
+		"de": "System loggen.",
+		"fr": "Login au système",
+		"it": "Logon sistematico"
+	},
+	"fg1dn45": {
+		"zh-cn": "登 录",
+		"en": "Log in",
+		"de": "Sollen wir es aufnehmen?",
+		"fr": "Den enregistré",
+		"it": "Den registrati"
+	},
+	"miwv34": {
+		"zh-cn": "重置",
+		"en": "Reset",
+		"de": "Umplanen.",
+		"fr": "La valeur de remplacement",
+		"it": "sostituzione"
+	},
+	"ymuctjo": {
+		"zh-cn": "提示：用户名 admin，密码 admin123",
+		"en": "Hint: Username: admin, password: admin123",
+		"de": "Tipp: benutzername admin, passwort admin123",
+		"fr": "Conseils: nom d’utilisateur admin, mot de passe admin123",
+		"it": "Nome utente admin; password admin123"
+	},
+	"f6qc1x4": {
+		"zh-cn": "用户中心",
+		"en": "User Center",
+		"de": "Nutzerzentrum -",
+		"fr": "Centre des utilisateurs",
+		"it": "Centri di utenti"
+	},
+	"6f4eil9": {
+		"zh-cn": "获取菜单列表失败：",
+		"en": "Failed to obtain the menu list",
+		"de": "Zugriff auf die menüliste fehlgeschlagen:",
+		"fr": "Échec pour obtenir la liste des menus:",
+		"it": "Non è stato possibile ottenere l’elenco dei menu:"
+	},
+	"72x0718": {
+		"zh-cn": "获取菜单列表失败",
+		"en": "Failed to obtain the menu list",
+		"de": "Zugriff auf die menüliste fehlgeschlagen",
+		"fr": "Échec à obtenir la liste des menus",
+		"it": "Non è stato possibile ottenere le liste di menu"
+	},
+	"gzcenw4": {
+		"zh-cn": "菜单名称",
+		"en": "Menu name",
+		"de": "menüname",
+		"fr": "Nom du menu",
+		"it": "Nome del menu"
+	},
+	"onzp2": {
+		"zh-cn": "路径",
+		"en": "\"Path\"",
+		"de": "Route.",
+		"fr": "La trajectoire",
+		"it": "Il percorso"
+	},
+	"lzua2": {
+		"zh-cn": "组件",
+		"en": "Component",
+		"de": "Ersatzteile.",
+		"fr": "composants",
+		"it": "componenti"
+	},
+	"fd8p2": {
+		"zh-cn": "图标",
+		"en": "Icon",
+		"de": "Icons.",
+		"fr": "Les icônes",
+		"it": "l’icona"
+	},
+	"lnjk2": {
+		"zh-cn": "类型",
+		"en": "Type",
+		"de": "Typen?",
+		"fr": "type",
+		"it": "tipo"
+	},
+	"mvw92": {
+		"zh-cn": "菜单",
+		"en": "Menu",
+		"de": "Taschenkrebs wachtel mit trüffeln",
+		"fr": "Le menu",
+		"it": "menu"
+	},
+	"hnt12": {
+		"zh-cn": "按钮",
+		"en": "Button",
+		"de": "Ja, jede menge.",
+		"fr": "Le bouton",
+		"it": "pulsante"
+	},
+	"hge52": {
+		"zh-cn": "排序",
+		"en": "Sorting",
+		"de": "Bei einer sequenz.",
+		"fr": "Le classement",
+		"it": "ordinate"
+	},
+	"dneg984": {
+		"zh-cn": "权限标识",
+		"en": "Permission identifier",
+		"de": "Autorisierungs-abfrage stufe 5 sicherheits-verletzung",
+		"fr": "Identification des droits",
+		"it": "Identificazione dell’autorità"
+	},
+	"k1e32": {
+		"zh-cn": "状态",
+		"en": "\"Status\"",
+		"de": "Versetzen.",
+		"fr": "l’état",
+		"it": "Lo stato"
+	},
+	"hkxb2": {
+		"zh-cn": "操作",
+		"en": "Operation",
+		"de": "betrieb",
+		"fr": "opérations",
+		"it": "operazioni"
+	},
+	"juz394": {
+		"zh-cn": "编辑",
+		"en": "\"Editor",
+		"de": "Make up",
+		"fr": "Rédacteur en chef",
+		"it": "editoriale"
+	},
+	"db22k4": {
+		"zh-cn": "删除",
+		"en": "Delete",
+		"de": "Löschen.",
+		"fr": "supprimé",
+		"it": "cancellare"
+	},
+	"1pp7k76": {
+		"zh-cn": "新增菜单",
+		"en": "New menu added",
+		"de": "Taschenbuch hinzufügen.",
+		"fr": "Nouveau menu ajouté",
+		"it": "Nuovi menu"
+	},
+	"gzbk2v4": {
+		"zh-cn": "菜单信息",
+		"en": "Menu information",
+		"de": "Menü-information,",
+		"fr": "Informations sur le menu",
+		"it": "Menu informazioni"
+	},
+	"ev022": {
+		"zh-cn": "取消",
+		"en": "Cancel",
+		"de": "korrekt",
+		"fr": "La suppression des",
+		"it": "soppressione"
+	},
+	"kzjg2": {
+		"zh-cn": "确定",
+		"en": "\"Sure\"",
+		"de": "Könnten?",
+		"fr": "déterminer",
+		"it": "definire"
+	},
+	"gjqm6z7": {
+		"zh-cn": "请输入菜单名称",
+		"en": "Please enter the menu name",
+		"de": "Bitte geben sie den menünamen ein",
+		"fr": "Veuillez entrer le nom du menu",
+		"it": "Per favore digitate il nome del menu"
+	},
+	"xombcm5": {
+		"zh-cn": "父菜单ID",
+		"en": "Parent menu ID",
+		"de": "Eine vip-karte.",
+		"fr": "ID du menu parent",
+		"it": "Menu «padrino»"
+	},
+	"3k1ei86": {
+		"zh-cn": "0表示根菜单",
+		"en": "0 indicates the root menu",
+		"de": "Null steht für das menü",
+		"fr": "0 pour le menu racine",
+		"it": "0 indica il menù radice"
+	},
+	"gzm3vy4": {
+		"zh-cn": "菜单路径",
+		"en": "Menu path",
+		"de": "Die menüroute.",
+		"fr": "Chemin du menu",
+		"it": "Percorso di menu"
+	},
+	"gjgwyx7": {
+		"zh-cn": "请输入菜单路径",
+		"en": "Please enter the menu path",
+		"de": "Geben sie einen menüweg ein",
+		"fr": "Veuillez entrer le chemin du menu",
+		"it": "Inserire il percorso del menu"
+	},
+	"gbuf8n4": {
+		"zh-cn": "组件路径",
+		"en": "Component path",
+		"de": "Die komponente.",
+		"fr": "Chemin des composants",
+		"it": "Percorso dei componenti"
+	},
+	"h78lm87": {
+		"zh-cn": "请输入组件路径",
+		"en": "Please enter the component path",
+		"de": "Bitte geben sie den komponentenpfad ein",
+		"fr": "Veuillez entrer le chemin du composant",
+		"it": "Inserire il percorso dei componenti"
+	},
+	"gzct4y4": {
+		"zh-cn": "菜单图标",
+		"en": "Menu icon",
+		"de": "Vektor x",
+		"fr": "L’icône du menu",
+		"it": "Icone di menu"
+	},
+	"gjq7px7": {
+		"zh-cn": "请输入菜单图标",
+		"en": "Please enter the menu icon",
+		"de": "Geben sie das menü-symbol ein",
+		"fr": "Veuillez entrer l’icône du menu",
+		"it": "Inserire le icone del menu"
+	},
+	"n9agoii": {
+		"zh-cn": "菜单名称长度在 1 到 50 个字符",
+		"en": "The length of the menu name ranges from 1 to 50 characters",
+		"de": "Der menüname ist zwischen 1 und 50 zeichen lang",
+		"fr": "Nom du menu de 1 à 50 caractères",
+		"it": "Le denominazioni del menù sono lunghe da 1 a 50 caratteri"
+	},
+	"fad0ak6": {
+		"zh-cn": "菜单更新成功",
+		"en": "The menu update was successful.",
+		"de": "Menü-aktualisierung erfolgreich",
+		"fr": "Menu mis à jour avec succès",
+		"it": "Menu aggiornato successi"
+	},
+	"fi0t566": {
+		"zh-cn": "菜单新增成功",
+		"en": "The menu has been added successfully.",
+		"de": "Speisekarte hinzufügen.",
+		"fr": "Menu ajouté avec succès",
+		"it": "Menu nuovi successi"
+	},
+	"fae71z6": {
+		"zh-cn": "菜单更新失败",
+		"en": "Menu update failed",
+		"de": "Menü-aktualisierung fehlgeschlagen",
+		"fr": "Échec de la mise à jour du menu",
+		"it": "Mancato aggiornamento dei menu"
+	},
+	"fi1zwl6": {
+		"zh-cn": "菜单新增失败",
+		"en": "Menu addition failed",
+		"de": "Neues menü fehlschlagen",
+		"fr": "Nouveau menu échoué",
+		"it": "Nuovi insuccessi"
+	},
+	"7sqdsce": {
+		"zh-cn": "表单验证失败，请检查输入内容",
+		"en": "Form validation failed. Please check the input content",
+		"de": "Formularprüfung fehlgeschlagen, bitte überprüfen sie den eingaben",
+		"fr": "La validation du formulaire a échoué, veuillez vérifier le contenu entré",
+		"it": "Verificare se la convalida del formulario non è stata effettuata"
+	},
+	"m17j3na": {
+		"zh-cn": "确定要删除该菜单吗？",
+		"en": "Are you sure you want to delete this menu?",
+		"de": "Soll das menü wirklich gelöscht werden?",
+		"fr": "Sûr de vouloir supprimer ce menu?",
+		"it": "È sicuro che il menù debba essere cancellato?"
+	},
+	"azilh64": {
+		"zh-cn": "删除确认",
+		"en": "\"Delete confirmation\"",
+		"de": "Löschen bestätigt",
+		"fr": "Confirmation de suppression",
+		"it": "Cancellazione della conferma"
+	},
+	"hpst6c6": {
+		"zh-cn": "菜单删除成功",
+		"en": "The menu was deleted successfully.",
+		"de": "Löschen Von menüs erfolgreich",
+		"fr": "Menu supprimé avec succès",
+		"it": "Menu cancellato successi"
+	},
+	"j03w4p7": {
+		"zh-cn": "菜单删除失败：",
+		"en": "Menu deletion failed",
+		"de": "Datei löschen fehlgeschlagen:",
+		"fr": "Échec de la suppression du menu:",
+		"it": "Menu soppresso:"
+	},
+	"hptzxr6": {
+		"zh-cn": "菜单删除失败",
+		"en": "Menu deletion failed",
+		"de": "Abbruch Von menü-löschen nicht möglich",
+		"fr": "Échec de suppression du menu",
+		"it": "Menù soppresso"
+	},
+	"n781m05": {
+		"zh-cn": "已取消删除",
+		"en": "Canceled or deleted",
+		"de": "Abbrechen - löschen",
+		"fr": "A été annulé supprimé",
+		"it": "Annullamento soppresso"
+	},
+	"i7y16i9": {
+		"zh-cn": "菜单状态更新失败：",
+		"en": "Menu status update failed",
+		"de": "Änderungen des menüs fehlgeschlagen:",
+		"fr": "Échec de la mise à jour du statut du menu:",
+		"it": "Mancato aggiornamento della situazione:"
+	},
+	"563p818": {
+		"zh-cn": "菜单状态更新成功",
+		"en": "The menu status update was successful",
+		"de": "Aktualisierung der menüs ist erfolgreich",
+		"fr": "Statut du menu mis à jour avec succès",
+		"it": "Stati membri"
+	},
+	"564vzg8": {
+		"zh-cn": "菜单状态更新失败",
+		"en": "The menu status update failed",
+		"de": "Menü-aktualisierung ist fehlgeschlagen",
+		"fr": "Échec de la mise à jour du statut du menu",
+		"it": "Non è stato possibile aggiornare la situazione"
+	},
+	"hd48f3": {
+		"zh-cn": "父菜单",
+		"en": "Parent menu",
+		"de": "Vater's menü",
+		"fr": "Le menu parent",
+		"it": "Menu dei padrini"
+	},
+	"3gmfvs6": {
+		"zh-cn": "请选择父菜单",
+		"en": "Please select the parent menu",
+		"de": "Wählen sie die paris-karte",
+		"fr": "Veuillez sélectionner le menu parent",
+		"it": "Scegliete, per favore, il menu paterno"
+	},
+	"pbidefr": {
+		"zh-cn": "请输入权限标识（如：system:menu:view）",
+		"en": "Please enter the permission identifier (e.g., system:menu:view)",
+		"de": "Geben sie die berechtigungen ein, die sie verwenden müssen (z. B. programme :menu:view",
+		"fr": "Veuillez entrer l’identification des droits (par exemple: système :menu: vue)",
+		"it": "Indicare l’identità del prodotto (per esempio: sistema: elenco)"
+	},
+	"fwg6q3": {
+		"zh-cn": "根菜单",
+		"en": "Root menu",
+		"de": "Das hauptmenü.",
+		"fr": "Menu des racines",
+		"it": "Riso bianco"
+	},
+	"ganc564": {
+		"zh-cn": "系统监控",
+		"en": "System monitoring",
+		"de": "Roboter: system überwachung.",
+		"fr": "Surveillance du système",
+		"it": "Monitoraggio dei sistemi"
+	},
+	"d7c8dj4": {
+		"zh-cn": "新增菜单",
+		"en": "New menu added",
+		"de": "Taschenbuch hinzufügen.",
+		"fr": "Nouveau menu ajouté",
+		"it": "Nuovi menu"
+	},
+	"mekb2": {
+		"zh-cn": "编辑",
+		"en": "\"Editor",
+		"de": "Make up",
+		"fr": "Rédacteur en chef",
+		"it": "editoriale"
+	},
+	"eslg2": {
+		"zh-cn": "删除",
+		"en": "Delete",
+		"de": "Löschen.",
+		"fr": "supprimé",
+		"it": "cancellare"
+	},
+	"lnxgy15": {
+		"zh-cn": "操作失败：",
+		"en": "Operation failed",
+		"de": "Fehler der anlage:",
+		"fr": "Échec de l’opération:",
+		"it": "Fallimento dell’operazione:"
+	},
+	"pr074a6": {
+		"zh-cn": "表单验证失败",
+		"en": "Form validation failed",
+		"de": "Formüberprüfung fehlgeschlagen",
+		"fr": "La validation du formulaire a échoué",
+		"it": "Mancata convalida del formulario"
+	},
+	"ep2uda5": {
+		"zh-cn": "删除失败：",
+		"en": "Deletion failed",
+		"de": "Löschen fehlgeschlagen:",
+		"fr": "La suppression a échoué:",
+		"it": "Cancellazione:"
+	},
+	"azdahk4": {
+		"zh-cn": "删除失败",
+		"en": "Deletion failed",
+		"de": "Löschen fehlgeschlagen",
+		"fr": "Suppression échouée",
+		"it": "annullamento"
+	},
+	"flsaxi6": {
+		"zh-cn": "状态更新成功",
+		"en": "Status update successful",
+		"de": "Statusupgrade erfolgreich.",
+		"fr": "Mise à jour de statut réussie",
+		"it": "Aggiornamento di stato riuscito"
+	},
+	"afl0za5": {
+		"zh-cn": "更新失败：",
+		"en": "Update failed",
+		"de": "Aktualisierungen versagen:",
+		"fr": "La mise à jour a échoué:",
+		"it": "Aggiornamento:"
+	},
+	"det3dc4": {
+		"zh-cn": "更新失败",
+		"en": "Update failed",
+		"de": "Aktualisierung versagen.",
+		"fr": "La mise à jour échoue",
+		"it": "Aggiornamento mancato"
+	},
+	"gmpnxw4": {
+		"zh-cn": "编辑菜单",
+		"en": "Edit menu",
+		"de": "Das menü bearbeiten",
+		"fr": "Modifier le menu",
+		"it": "Menu editoriale"
+	},
+	"hs6m2": {
+		"zh-cn": "新增",
+		"en": "New addition",
+		"de": "hinzufügen",
+		"fr": "nouveaux",
+		"it": "nuovi"
+	},
+	"gzj3ft4": {
+		"zh-cn": "菜单类型",
+		"en": "Menu type",
+		"de": "Typ 3: menütypen",
+		"fr": "Type de menu",
+		"it": "Tipo di menu"
+	},
+	"y8z6747": {
+		"zh-cn": "请选择菜单类型",
+		"en": "Please select the menu type",
+		"de": "Bitte wählen sie den menütyp aus",
+		"fr": "Veuillez sélectionner un type de menu",
+		"it": "Si prega di scegliere il tipo di menu"
+	},
+	"kr3b2": {
+		"zh-cn": "目录",
+		"en": "Directory",
+		"de": "Inhalt.",
+		"fr": "catalogue",
+		"it": "catalogo"
+	},
+	"i20s2": {
+		"zh-cn": "显示",
+		"en": "\"Display",
+		"de": "Sicht.",
+		"fr": "montre",
+		"it": "mostra"
+	},
+	"qce72": {
+		"zh-cn": "隐藏",
+		"en": "Hide",
+		"de": "Versteckt?",
+		"fr": "cachée",
+		"it": "nascosti"
+	},
+	"kcfjci8": {
+		"zh-cn": "显示（菜单可见）",
+		"en": "Display (Menu visible)",
+		"de": "Anzeige anzeigen (menü erscheint)",
+		"fr": "Affichage (menu visible)",
+		"it": "Visualizzazione (visibilità del menu)"
+	},
+	"ek8e6k9": {
+		"zh-cn": "隐藏（菜单不可见）",
+		"en": "Hidden (Menu not visible)",
+		"de": "Ausgeblendet (die karte wird nicht gezeigt)",
+		"fr": "Caché (le menu n’est pas visible)",
+		"it": "Non visibile (menu non visibile)"
+	},
+	"2en2kg5": {
+		"zh-cn": "请选择图标",
+		"en": "Please select the icon",
+		"de": "Bitte wählen sie das symbol aus",
+		"fr": "Veuillez sélectionner l’icône",
+		"it": "Scegliere le icone"
+	},
+	"ekj84i4": {
+		"zh-cn": "点击选择",
+		"en": "Click to select",
+		"de": "Klick die auswahl an!",
+		"fr": "Cliquez pour sélectionner",
+		"it": "Cliccare sulla selezione"
+	}
+}
