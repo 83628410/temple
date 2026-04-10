@@ -1,0 +1,35 @@
+# Docker 相关
+Dockerfile
+docker-compose*.yml
+docker-compose*.yaml
+.docker/
+mysql/
+redis/
+logs/
+
+# Java 相关
+target/
+*.jar
+*.war
+*.ear
+*.class
+.gitignore
+*.iml
+.idea/
+.vscode/
+
+# Maven 相关
+.mvn/
+mvnw
+mvnw.cmd
+
+# Node 相关（前端）
+temple-system-web/node_modules/
+temple-system-web/dist/
+
+# 日志文件
+*.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
