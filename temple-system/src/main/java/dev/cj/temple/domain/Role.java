@@ -1,5 +1,6 @@
-package dev.cj.temple.entity;
+package dev.cj.temple.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import jakarta.persistence.*;
 import java.util.Date;
@@ -29,6 +30,7 @@ public class Role {
     private Date updateTime;
     
     @ManyToMany(mappedBy = "roles")
+    @JsonIgnore
     private List<User> users;
     
     @ManyToMany

@@ -29,7 +29,6 @@ spring:
     properties:
       hibernate:
         format_sql: true
-    database-platform: org.hibernate.dialect.MySQLDialect
 
   # Redis配置
   data:
@@ -44,17 +43,25 @@ spring:
           max-wait: -1ms
           max-idle: 8
           min-idle: 0
+      repositories:
+        enabled: false
+  web:
+    resources:
+      add-mappings: true # 开启静态资源映射, 否则 doc.html 404 错误
 # 安全配置 - 白名单设置
 security:
   ignore-urls:
     - /auth/**
     - /swagger-ui/**
+    - /swagger-ui.html
+    - /doc.html
     - /v3/api-docs/**
+    - /webjars/**
     - /actuator/**
     - /error
-    - /webjars/**
     - /static/**
     - /public/**
+
 # 日志配置
 logging:
   level:
@@ -62,3 +69,23 @@ logging:
     dev.cj.temple: debug
     org.springframework.web: info
     org.hibernate: info
+# springdoc-openapi项目配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: dev.cj.temple
+# knife4j的增强配置，不需要增强可以不配
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+  production: false
+  basic:
+      enable: false

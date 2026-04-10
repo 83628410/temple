@@ -936,5 +936,236 @@
 		"de": "Könnten?",
 		"fr": "déterminer",
 		"it": "definire"
+	},
+	"a6ttl24": {
+		"zh-cn": "个人中心",
+		"en": "Personal Center",
+		"de": "Eine zentrale.",
+		"fr": "Le centre personnel",
+		"it": "Centri personali"
+	},
+	"iifi5w4": {
+		"zh-cn": "退出登录",
+		"en": "Log out",
+		"de": "Und loggen sie sich nicht ein.",
+		"fr": "Déconnexion du login",
+		"it": "Uscita logon"
+	},
+	"5igu197": {
+		"zh-cn": "是否确认登出？",
+		"en": "Have you confirmed logging out?",
+		"de": "Wurde der code bestätigt?",
+		"fr": "La déconnexion est-elle confirmée?",
+		"it": "Conferma la notizia?"
+	},
+	"koca2": {
+		"zh-cn": "登录",
+		"en": "Log in",
+		"de": "Einloggen.",
+		"fr": "connexion",
+		"it": "Log on"
+	},
+	"eyrn2": {
+		"zh-cn": "名称",
+		"en": "Name",
+		"de": "nachname",
+		"fr": "dénomination",
+		"it": "denominazione"
+	},
+	"2j8ot65": {
+		"zh-cn": "请输入排序",
+		"en": "Please enter the sorting",
+		"de": "Bitte ordnen sie die befehlstruktur ein.",
+		"fr": "Veuillez entrer pour trier",
+		"it": "Digitate l’ordine"
+	},
+	"jvokln7": {
+		"zh-cn": "请输入权限标识",
+		"en": "Please enter the permission identifier",
+		"de": "Geben sie das autorisierungs-modul ein",
+		"fr": "Veuillez entrer les identifiants d’autorisation",
+		"it": "Si prega di inserire l’indicazione dell’autorità"
+	},
+	"gbkq0l4": {
+		"zh-cn": "组件名称",
+		"en": "Component name",
+		"de": "Komponenten-namen,",
+		"fr": "Nom des composants",
+		"it": "Nome del componente"
+	},
+	"h7iaua7": {
+		"zh-cn": "请输入组件名称",
+		"en": "Please enter the component name",
+		"de": "Bitte geben sie den komponentennamen ein",
+		"fr": "Veuillez entrer le nom du composant",
+		"it": "Si prega di indicare il nome del componente"
+	},
+	"gzc6v44": {
+		"zh-cn": "菜单分配",
+		"en": "Menu allocation",
+		"de": "Menü-verteilung,",
+		"fr": "Répartition des menus",
+		"it": "Distribuzione dei menu"
+	},
+	"qs9uhz9": {
+		"zh-cn": "获取角色信息失败：",
+		"en": "Failed to obtain character information",
+		"de": "Zugriff auf personaldaten:",
+		"fr": "Échec à obtenir des informations sur le rôle:",
+		"it": "Acquisizione di informazioni sul ruolo"
+	},
+	"a121pb8": {
+		"zh-cn": "获取角色信息失败",
+		"en": "Failed to obtain character information",
+		"de": "Zugriff auf die informationen über die rolle fehlgeschlagen",
+		"fr": "Échec à obtenir des informations sur le personnage",
+		"it": "Non si riesce ad ottenere informazioni sui ruoli"
+	},
+	"l7z55l9": {
+		"zh-cn": "获取用户列表失败：",
+		"en": "Failed to obtain the user list",
+		"de": "Zugriff auf die nutzerliste fehlgeschlagen:",
+		"fr": "Échec pour obtenir la liste des utilisateurs:",
+		"it": "Non è stato possibile ottenere l’elenco degli utenti:"
+	},
+	"c52zsd8": {
+		"zh-cn": "获取用户列表失败",
+		"en": "Failed to obtain the user list",
+		"de": "Zugriff auf die nutzerliste fehlgeschlagen",
+		"fr": "Échec à obtenir la liste des utilisateurs",
+		"it": "Non è stato possibile ottenere l’elenco degli utenti"
+	},
+	"ntsgkda": {
+		"zh-cn": "确定要删除该用户吗？",
+		"en": "Are you sure you want to delete this user?",
+		"de": "Soll dieser benutzer wirklich gelöscht werden?",
+		"fr": "Sûr de vouloir supprimer cet utilisateur?",
+		"it": "È sicuro che l’utente debba essere cancellato?"
+	},
+	"y3b8te6": {
+		"zh-cn": "用户删除成功",
+		"en": "The user was deleted successfully.",
+		"de": "Abbruch erfolgreich",
+		"fr": "Utilisateur supprimé avec succès",
+		"it": "L’utente cancella il successo"
+	},
+	"1rs7h96": {
+		"zh-cn": "新增用户",
+		"en": "New user",
+		"de": "Neue benutzer.",
+		"fr": "Nouveaux utilisateurs ajoutés",
+		"it": "Nuovi utenti"
+	},
+	"hmxge3": {
+		"zh-cn": "用户名",
+		"en": "User name",
+		"de": "benutzername",
+		"fr": "Nom de l’utilisateur",
+		"it": "Nome dell’utente"
+	},
+	"i1y32": {
+		"zh-cn": "昵称",
+		"en": "Nickname",
+		"de": "Ein spitzname.",
+		"fr": "surnom",
+		"it": "soprannome"
+	},
+	"padf2": {
+		"zh-cn": "邮箱",
+		"en": "Email",
+		"de": "Briefkasten.",
+		"fr": "La boîte aux lettres",
+		"it": "cassetta"
+	},
+	"ewbd43": {
+		"zh-cn": "手机号",
+		"en": "Mobile phone number",
+		"de": "Das handy.",
+		"fr": "Téléphone portable non",
+		"it": "Numero di telefono"
+	},
+	"2j83985": {
+		"zh-cn": "请输入昵称",
+		"en": "Please enter your nickname.",
+		"de": "Bitte geben sie ihren spitznamen ein",
+		"fr": "Veuillez entrer un surnom",
+		"it": "Per favore digitate il nomignolo"
+	},
+	"anhu2ra": {
+		"zh-cn": "请输入正确的邮箱地址",
+		"en": "Please enter the correct email address",
+		"de": "Bitte geben sie die richtige e-mail-adresse ein",
+		"fr": "Veuillez entrer une adresse e-mail correcte",
+		"it": "Per abbonarsi, digitare l’indirizzo postale corretto"
+	},
+	"w8axw89": {
+		"zh-cn": "请输入正确的手机号",
+		"en": "Please enter the correct mobile phone number",
+		"de": "Bitte geben sie die korrekte handynummer ein",
+		"fr": "Veuillez entrer le numéro de téléphone correct",
+		"it": "Digitare il numero di cellulare giusto"
+	},
+	"yid09y6": {
+		"zh-cn": "用户更新成功",
+		"en": "The user has updated successfully.",
+		"de": "Aktualisierungen erfolgreich",
+		"fr": "Utilisateur mis à jour avec succès",
+		"it": "Aggiornamento degli utenti"
+	},
+	"yq0t4k6": {
+		"zh-cn": "用户新增成功",
+		"en": "The user has been successfully added.",
+		"de": "Setzen setzen setzen.",
+		"fr": "Utilisateur ajouté avec succès",
+		"it": "Nuovi successi per gli utenti"
+	},
+	"gmn8ui4": {
+		"zh-cn": "编辑用户",
+		"en": "\"Edit User\"",
+		"de": "Editor (benutzer)",
+		"fr": "Modifier un utilisateur",
+		"it": "Utenti editoriali"
+	},
+	"d79ta54": {
+		"zh-cn": "新增用户",
+		"en": "New user",
+		"de": "Neue benutzer.",
+		"fr": "Nouveaux utilisateurs ajoutés",
+		"it": "Nuovi utenti"
+	},
+	"g9ob2": {
+		"zh-cn": "密码",
+		"en": "Password",
+		"de": "kennwort",
+		"fr": "Les mots de passe",
+		"it": "password"
+	},
+	"2j0utw5": {
+		"zh-cn": "请输入邮箱",
+		"en": "Please enter your email address.",
+		"de": "Bitte geben sie ihren briefkasten ein.",
+		"fr": "Veuillez entrer votre email",
+		"it": "Per abbonarsi, digitare la mailbox"
+	},
+	"7ji3y96": {
+		"zh-cn": "请输入手机号",
+		"en": "Please enter your mobile phone number",
+		"de": "Geben sie eine handynummer ein",
+		"fr": "Veuillez entrer votre numéro de téléphone",
+		"it": "Digitate il cellulare, per piacere"
+	},
+	"o5pc2": {
+		"zh-cn": "角色",
+		"en": "\"Role\"",
+		"de": "Und rollen",
+		"fr": "Le rôle",
+		"it": "Il ruolo"
+	},
+	"2eea3t5": {
+		"zh-cn": "请选择角色",
+		"en": "Please select a role",
+		"de": "Suchen sie sich ihre rolle aus.",
+		"fr": "Veuillez sélectionner un rôle",
+		"it": "Scegliere il ruolo"
 	}
 }

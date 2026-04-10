@@ -14,21 +14,23 @@ export interface LoginResponse {
         token: string
     }
 }
-
 /**
- * 登录服务
- */
-export const loginService = {
-    /**
-     * 用户登录
-     * @param data 登录参数
-     * @returns 登录结果
-     */
-    login: (data: LoginRequest): Promise<LoginResponse> => {
-        return request({
-            url: '/auth/login',
-            method: 'POST',
-            data
-        })
-    }
+    * 用户登录
+    * @param data 登录参数
+    * @returns 登录结果
+    */
+export const login = (data: LoginRequest): Promise<LoginResponse> => {
+    return request({
+        url: '/auth/login',
+        method: 'POST',
+        data
+    })
 }
+
+export const logout = (): Promise<any> => {
+    return request({
+        url: '/auth/logout',
+        method: 'DELETE'
+    })
+}
+

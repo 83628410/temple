@@ -3,7 +3,7 @@ import { reactive, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import type { FormInstance, FormRules } from 'element-plus'
 import { useUserStore } from '@/store/user'
-import { loginService } from '@/api/auth'
+import { login } from '@/api/auth'
 
 const router = useRouter()
 const userStore = useUserStore()
@@ -35,7 +35,7 @@ const handleLogin = async () => {
       loading.value = true
       try {
         // 调用登录接口
-        const response = await loginService.login(loginForm)
+        const response = await login(loginForm)
         // 登录成功
         const {token} = response.data
         userStore.setToken(token)
@@ -53,6 +53,7 @@ const handleLogin = async () => {
 const resetForm = () => {
   formRef.value?.resetFields()
 }
+
 </script>
 
 <template>

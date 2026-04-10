@@ -1,6 +1,6 @@
-package dev.cj.temple.security;
+package dev.cj.temple.auth.security;
 
-import dev.cj.temple.entity.User;
+import dev.cj.temple.domain.User;
 import dev.cj.temple.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

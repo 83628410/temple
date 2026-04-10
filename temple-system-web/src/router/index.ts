@@ -12,6 +12,7 @@ export const constantRoutes: Array<RouteRecordRaw> = [
         component: () => import('@/views/login/index.vue'),
         meta: {
             hidden: true, // 隐藏在侧边栏
+            // title: '登录'
         }
     },
 

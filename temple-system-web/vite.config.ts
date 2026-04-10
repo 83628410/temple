@@ -19,6 +19,7 @@ import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'; // SVG 图标插�
 import Icons from 'unplugin-icons/vite' // 图标插件
 import UnoCSS from 'unocss/vite' // UnoCSS 插件
 import vitePluginsAutoI18n, { YoudaoTranslator } from 'vite-auto-i18n-plugin'
+import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
@@ -83,7 +84,8 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
                     appId: '420f95c7184552b4',
                     appKey: 'e1tKf0mMRiAGkki92J1U8nG6UL87sYLb'
                 })
-            })
+            }),
+            vueDevTools()
         ],
         css: {
 

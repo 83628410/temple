@@ -1,17 +1,19 @@
 package dev.cj.temple.converter;
 
-import dev.cj.temple.entity.Menu;
+import dev.cj.temple.domain.Menu;
+import dev.cj.temple.dto.MenuDTO;
 import dev.cj.temple.vo.MenuVo;
 import dev.cj.temple.vo.RouterVo;
-import org.mapstruct.Builder;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
+import org.mapstruct.MappingTarget;
 import org.mapstruct.ReportingPolicy;
 
 @Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.ERROR)
 public interface MenuConverter {
 
 
+    @Mapping(source = "title", target = "title")
     @Mapping(source = "name", target = "name")
     @Mapping(source = "path", target = "path")
     @Mapping(source = "component", target = "component")
@@ -22,4 +24,9 @@ public interface MenuConverter {
     // 忽略children字段
     @Mapping(target = "children", ignore = true)
     MenuVo toMenuVo(Menu menu);
+
+    @Mapping(target = "id", ignore = true)
+    @Mapping(target = "createTime", ignore = true)
+    @Mapping(target = "updateTime", ignore = true)
+    void updateMenuFromDTO(MenuDTO menuDTO, @MappingTarget Menu menu);
 }

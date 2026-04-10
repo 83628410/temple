@@ -5,6 +5,8 @@ import lombok.Data;
 @Data
 public class MenuDTO {
     private Long id;
+    private String title;
+    private String type;
     private String name;
     private String path;
     private String component;
@@ -12,4 +14,5 @@ public class MenuDTO {
     private Long parentId;
     private Integer orderNum;
     private Integer status;
+    private String permission;
 }

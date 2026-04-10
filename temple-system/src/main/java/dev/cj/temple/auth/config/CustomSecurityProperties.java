@@ -1,4 +1,4 @@
-package dev.cj.temple.config;
+package dev.cj.temple.auth.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

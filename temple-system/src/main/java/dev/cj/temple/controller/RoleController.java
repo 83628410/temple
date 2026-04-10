@@ -2,8 +2,9 @@ package dev.cj.temple.controller;
 
 import dev.cj.temple.common.utils.Result;
 import dev.cj.temple.dto.RoleDTO;
-import dev.cj.temple.entity.Role;
+import dev.cj.temple.domain.Role;
 import dev.cj.temple.service.RoleService;
+import dev.cj.temple.vo.RoleVO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -22,8 +23,8 @@ public class RoleController {
     
     @GetMapping("/list")
     @Operation(summary = "获取角色列表", description = "获取系统中所有角色信息")
-    public Result<List<Role>> list() {
-        return Result.success(roleService.findAll());
+    public Result<List<RoleVO>> list() {
+        return Result.success(roleService.findAllVO());
     }
     
     @GetMapping("/{id}")

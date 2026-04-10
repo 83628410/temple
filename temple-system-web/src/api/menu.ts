@@ -27,6 +27,7 @@ export interface MenuListResponse {
 export interface MenuData {
     id: number
     name: string
+    title: string
     path: string
     component: string
     icon: string
@@ -49,6 +50,7 @@ export interface MenuListDataResponse {
 export interface MenuSaveRequest {
     id?: number
     name: string
+    title: string
     path: string
     component: string
     icon: string

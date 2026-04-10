@@ -1,7 +1,7 @@
 package dev.cj.temple.auth.service;
 
-import dev.cj.temple.auth.dto.LoginDTO;
-import dev.cj.temple.auth.vo.AuthTokenVo;
+import dev.cj.temple.auth.model.dto.LoginDTO;
+import dev.cj.temple.auth.model.vo.AuthTokenVo;
 
 /**
  * 登录认证

@@ -1,17 +1,20 @@
 package dev.cj.temple.service.impl;
 
+import dev.cj.temple.converter.RoleConverter;
 import dev.cj.temple.dto.RoleDTO;
-import dev.cj.temple.entity.Menu;
-import dev.cj.temple.entity.Role;
+import dev.cj.temple.domain.Menu;
+import dev.cj.temple.domain.Role;
 import dev.cj.temple.repository.MenuRepository;
 import dev.cj.temple.repository.RoleRepository;
 import dev.cj.temple.service.RoleService;
+import dev.cj.temple.vo.RoleVO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -19,6 +22,7 @@ public class RoleServiceImpl implements RoleService {
     
     private final RoleRepository roleRepository;
     private final MenuRepository menuRepository;
+    private final RoleConverter roleConverter;
     
     @Override
     @Transactional
@@ -55,8 +59,8 @@ public class RoleServiceImpl implements RoleService {
     }
     
     @Override
-    public List<Role> findAll() {
-        return roleRepository.findAll();
+    public List<RoleVO> findAllVO() {
+        return roleRepository.findAll().stream().map(roleConverter::toRoleVO).toList();
     }
     
     @Override

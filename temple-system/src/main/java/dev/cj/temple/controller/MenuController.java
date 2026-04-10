@@ -2,7 +2,7 @@ package dev.cj.temple.controller;
 
 import dev.cj.temple.common.utils.Result;
 import dev.cj.temple.dto.MenuDTO;
-import dev.cj.temple.entity.Menu;
+import dev.cj.temple.domain.Menu;
 import dev.cj.temple.service.MenuService;
 import dev.cj.temple.vo.MenuVo;
 import dev.cj.temple.vo.RouterVo;

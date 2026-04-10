@@ -47,7 +47,9 @@ export function setupRouterGuard() {
         next()
     })
     router.afterEach((to, from) => {
-        document.title = to.meta.title as string
+        if (to.meta.title) {
+            document.title = to.meta.title as string 
+        }
     })
 
 }

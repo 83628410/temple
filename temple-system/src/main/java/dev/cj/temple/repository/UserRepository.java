@@ -1,6 +1,6 @@
 package dev.cj.temple.repository;
 
-import dev.cj.temple.entity.User;
+import dev.cj.temple.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

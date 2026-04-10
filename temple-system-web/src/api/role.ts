@@ -1,4 +1,5 @@
 import request from '@/utils/request'
+import type { MenuData } from './menu'
 
 export interface Role {
     id: number
@@ -7,6 +8,7 @@ export interface Role {
     status: number
     createTime?: string
     updateTime?: string
+    menus?: MenuData[]
 }
 
 export interface RoleDTO {

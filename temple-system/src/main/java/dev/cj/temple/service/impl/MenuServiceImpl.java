@@ -2,7 +2,7 @@ package dev.cj.temple.service.impl;
 
 import dev.cj.temple.converter.MenuConverter;
 import dev.cj.temple.dto.MenuDTO;
-import dev.cj.temple.entity.Menu;
+import dev.cj.temple.domain.Menu;
 import dev.cj.temple.repository.MenuRepository;
 import dev.cj.temple.service.MenuService;
 import dev.cj.temple.vo.MenuVo;
@@ -33,7 +33,7 @@ public class MenuServiceImpl implements MenuService {
     @Transactional
     public Menu update(MenuDTO menuDTO) {
         Menu menu = menuRepository.findById(menuDTO.getId()).orElseThrow(() -> new RuntimeException("Menu not found"));
-        BeanUtils.copyProperties(menuDTO, menu);
+        menuConverter.updateMenuFromDTO(menuDTO, menu);
         return menuRepository.save(menu);
     }
 

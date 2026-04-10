@@ -1,4 +1,4 @@
-package dev.cj.temple.entity;
+package dev.cj.temple.domain;
 
 import lombok.Data;
 import jakarta.persistence.*;

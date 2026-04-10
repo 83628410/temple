@@ -1,14 +1,15 @@
 package dev.cj.temple.auth.controller;
 
 import dev.cj.temple.auth.service.AuthService;
-import dev.cj.temple.auth.vo.AuthTokenVo;
+import dev.cj.temple.auth.model.vo.AuthTokenVo;
 import dev.cj.temple.common.utils.Result;
 
-import dev.cj.temple.auth.dto.LoginDTO;
-import dev.cj.temple.entity.User;
+import dev.cj.temple.auth.model.dto.LoginDTO;
+import dev.cj.temple.domain.User;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,6 +28,13 @@ public class AuthController {
         return Result.success(tokenVo);
     }
 
+    @DeleteMapping("/logout")
+    @Operation(summary = "退出登录")
+    public Result logout(HttpServletRequest request) {
+        authService.logout();
+        return Result.success();
+    }
+
     @GetMapping("/info")
     @Operation(summary = "获取当前用户信息", description = "获取当前登录用户的详细信息")
     public Result<User> getUserInfo() {
@@ -35,4 +43,5 @@ public class AuthController {
         // );
         return Result.success();
     }
+
 }

@@ -13,6 +13,8 @@ public class MenuVo {
     @Schema(description = "菜单ID")
     private Long id;
     @Schema(description = "菜单名称")
+    private String title;
+    @Schema(description = "组件名称")
     private String name;
     @Schema(description = "菜单路径")
     private String path;

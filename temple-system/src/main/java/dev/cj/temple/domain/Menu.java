@@ -1,4 +1,4 @@
-package dev.cj.temple.entity;
+package dev.cj.temple.domain;
 
 import lombok.Data;
 import jakarta.persistence.*;
@@ -24,7 +24,7 @@ public class Menu {
     private String type;
 
     @Column(name = "name", nullable = false, length = 50)
-    @Schema(description = "路由的name", example = "Dashboard", required = true)
+    @Schema(description = "组件name", example = "Dashboard")
     private String name;
 
     @Column(name = "path", length = 100)

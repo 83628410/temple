@@ -1,8 +1,7 @@
 package dev.cj.temple.service;
 
 import dev.cj.temple.dto.UserDTO;
-import dev.cj.temple.entity.User;
-import dev.cj.temple.service.impl.UserServiceImpl;
+import dev.cj.temple.domain.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

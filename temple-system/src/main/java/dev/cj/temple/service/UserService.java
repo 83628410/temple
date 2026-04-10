@@ -1,7 +1,7 @@
 package dev.cj.temple.service;
 
 import dev.cj.temple.dto.UserDTO;
-import dev.cj.temple.entity.User;
+import dev.cj.temple.domain.User;
 import java.util.List;
 
 public interface UserService {

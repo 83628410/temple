@@ -1,8 +1,8 @@
 package dev.cj.temple.service.impl;
 
 import dev.cj.temple.dto.UserDTO;
-import dev.cj.temple.entity.Role;
-import dev.cj.temple.entity.User;
+import dev.cj.temple.domain.Role;
+import dev.cj.temple.domain.User;
 import dev.cj.temple.repository.RoleRepository;
 import dev.cj.temple.repository.UserRepository;
 import dev.cj.temple.service.UserService;
@@ -14,7 +14,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor

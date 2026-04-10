@@ -2,7 +2,7 @@ package dev.cj.temple.controller;
 
 import dev.cj.temple.common.utils.Result;
 import dev.cj.temple.dto.UserDTO;
-import dev.cj.temple.entity.User;
+import dev.cj.temple.domain.User;
 import dev.cj.temple.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping("/user")
 @RequiredArgsConstructor
 @Tag(name = "用户管理", description = "用户信息管理相关接口")
 public class UserController {

@@ -1,4 +1,4 @@
-package dev.cj.temple.security;
+package dev.cj.temple.auth.security;
 
 import cn.hutool.json.JSONUtil;
 import dev.cj.temple.common.utils.Result;
@@ -27,10 +27,21 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ExpiredJwtException, ServletException, IOException {
-        String authHeader = request.getHeader("Authorization");
         try {
-            if (authHeader != null && authHeader.startsWith("Bearer ")) {
-                String token = authHeader.substring(7);
+            String authHeader = request.getHeader("Authorization");
+            String token = jwtUtil.resolveToken(authHeader);
+            
+            if (token != null) {
+                if (jwtUtil.isBlacklisted(token)) {
+                    response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+                    response.getWriter().write(
+                            JSONUtil.toJsonStr(
+                                    Result.error(HttpServletResponse.SC_UNAUTHORIZED, "Token has been invalidated")
+                            )
+                    );
+                    return;
+                }
+                
                 String username = jwtUtil.getUsernameFromToken(token);
 
                 if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {

@@ -1,10 +1,10 @@
 package dev.cj.temple.auth.service.impl;
 
-import dev.cj.temple.auth.dto.LoginDTO;
+import dev.cj.temple.auth.model.dto.LoginDTO;
 import dev.cj.temple.auth.service.AuthService;
-import dev.cj.temple.auth.vo.AuthTokenVo;
-import dev.cj.temple.entity.User;
-import dev.cj.temple.security.JwtUtil;
+import dev.cj.temple.auth.model.vo.AuthTokenVo;
+import dev.cj.temple.domain.User;
+import dev.cj.temple.auth.security.JwtUtil;
 import dev.cj.temple.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -18,6 +18,7 @@ public class AuthServiceImpl implements AuthService {
     private final AuthenticationManager authenticationManager;
     private final UserService userService;
     private final JwtUtil jwtUtil;
+
     /**
      * 登录
      * @param loginDTO 登录DTO
@@ -35,8 +36,12 @@ public class AuthServiceImpl implements AuthService {
         return AuthTokenVo.builder().token(token).build();
     }
 
+
     @Override
     public void logout() {
-        // TODO: 实现登出逻辑
+        String token = jwtUtil.getCurrentToken();
+        if (token != null && !token.isEmpty()) {
+            jwtUtil.addToBlacklist(token);
+        }
     }
 }

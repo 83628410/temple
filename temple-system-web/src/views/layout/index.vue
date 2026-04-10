@@ -2,6 +2,7 @@
 import LeftLayout from '@/views/layout/LeftLayout.vue'
 import CommandPalette from '@/views/layout/components/CommandPalette/CommandPalette.vue'
 import ChangeLang from '@/views/layout/components/ChangeLang/index.vue'
+import UserPorfile from '@/views/layout/components/UserPorfile/index.vue'
 import { Fold, Expand } from '@element-plus/icons-vue'
 import { useRoute } from 'vue-router'
 
@@ -38,6 +39,7 @@ const breadcrumbList = computed(() =>
         <div class="flex items-center gap-4">
           <CommandPalette />
           <ChangeLang />
+          <UserPorfile />
         </div>
       </el-header>
       <el-main class="bg-gray-50 p-4">

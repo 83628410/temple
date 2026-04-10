@@ -1,10 +1,8 @@
-package dev.cj.temple.config;
+package dev.cj.temple.auth.config;
 
-import dev.cj.temple.security.CustomUserDetailsService;
-import dev.cj.temple.security.JwtAuthenticationFilter;
+import dev.cj.temple.auth.security.CustomUserDetailsService;
+import dev.cj.temple.auth.security.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -17,8 +15,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-
-import java.util.List;
 
 @Configuration
 @EnableWebSecurity

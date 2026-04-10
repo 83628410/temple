@@ -9,6 +9,8 @@ import java.util.List;
 @Schema(description = "路由对象")
 @Data
 public class RouterVo {
+    @Schema(description = "菜单名称", example = "系统设置", required = true)
+    private String title;
     @Schema(description = "路由的name", example = "Dashboard", required = true)
     private String name;
     @Schema(description = "路由路径", example = "/dashboard")

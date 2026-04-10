@@ -39,78 +39,31 @@
       </el-table>
     </el-card>
 
-    <el-drawer
+    <RoleForm
       v-model="drawerVisible"
-      :title="isEdit ? '编辑角色' : '新增角色'"
-      direction="rtl"
-      size="450px"
-      :close-on-click-modal="false"
-    >
-      <el-form
-        ref="formRef"
-        :model="roleForm"
-        :rules="rules"
-        label-width="80px"
-        label-position="right"
-      >
-        <el-form-item label="角色名称" prop="name">
-          <el-input v-model="roleForm.name" placeholder="请输入角色名称" />
-        </el-form-item>
-        <el-form-item label="描述" prop="description">
-          <el-input
-            v-model="roleForm.description"
-            type="textarea"
-            :rows="3"
-            placeholder="请输入角色描述"
-          />
-        </el-form-item>
-        <el-form-item label="状态" prop="status">
-          <el-radio-group v-model="roleForm.status">
-            <el-radio :value="1">启用</el-radio>
-            <el-radio :value="0">禁用</el-radio>
-          </el-radio-group>
-        </el-form-item>
-      </el-form>
-      <template #footer>
-        <div style="flex: auto">
-          <el-button @click="drawerVisible = false">取消</el-button>
-          <el-button type="primary" :loading="submitLoading" @click="handleSubmit">
-            确定
-          </el-button>
-        </div>
-      </template>
-    </el-drawer>
+      :is-edit="isEdit"
+      :form-data="roleForm"
+      @success="getRoleList"
+    />
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, reactive, onMounted, nextTick } from 'vue'
+import { ref, reactive, onMounted } from 'vue'
 import { Plus } from '@element-plus/icons-vue'
-import type { FormInstance, FormRules } from 'element-plus'
+import RoleForm from './RoleForm.vue'
 import { roleService, Role, RoleDTO } from '@/api/role'
 
 const loading = ref(false)
-const submitLoading = ref(false)
 const roleList = ref<Role[]>([])
 const drawerVisible = ref(false)
 const isEdit = ref(false)
-const formRef = ref<FormInstance>()
 
 const roleForm = reactive<RoleDTO>({
   id: undefined,
   name: '',
   description: '',
   status: 1
-})
-
-const rules = reactive<FormRules>({
-  name: [
-    { required: true, message: '请输入角色名称', trigger: 'blur' },
-    { min: 2, max: 50, message: '长度在 2 到 50 个字符', trigger: 'blur' }
-  ],
-  status: [
-    { required: true, message: '请选择状态', trigger: 'change' }
-  ]
 })
 
 const formatDate = (dateStr?: string) => {
@@ -144,54 +97,31 @@ const getRoleList = async () => {
 
 const handleAdd = () => {
   isEdit.value = false
-  resetForm()
-  drawerVisible.value = true
-}
-
-const handleEdit = (row: Role) => {
-  isEdit.value = true
-  roleForm.id = row.id
-  roleForm.name = row.name
-  roleForm.description = row.description
-  roleForm.status = row.status
-  drawerVisible.value = true
-  nextTick(() => {
-    formRef.value?.clearValidate()
-  })
-}
-
-const resetForm = () => {
   roleForm.id = undefined
   roleForm.name = ''
   roleForm.description = ''
   roleForm.status = 1
-  formRef.value?.resetFields()
+  drawerVisible.value = true
 }
 
-const handleSubmit = async () => {
-  if (!formRef.value) return
-  
-  await formRef.value.validate(async (valid) => {
-    if (!valid) return
-    
-    submitLoading.value = true
-    try {
-      const api = isEdit.value ? roleService.update : roleService.save
-      const { code, msg } = await api(roleForm)
-      
-      if (code === 200) {
-        ElMessage.success(isEdit.value ? '角色更新成功' : '角色创建成功')
-        drawerVisible.value = false
-        getRoleList()
-      } else {
-        ElMessage.error((isEdit.value ? '更新失败：' : '创建失败：') + msg)
-      }
-    } catch {
-      ElMessage.error(isEdit.value ? '更新失败' : '创建失败')
-    } finally {
-      submitLoading.value = false
+const handleEdit = async (row: Role) => {
+  isEdit.value = true
+  // 获取完整的角色信息（包含menus）
+  try {
+    const { code, data, msg } = await roleService.getById(row.id)
+    if (code === 200) {
+      roleForm.id = data.id
+      roleForm.name = data.name
+      roleForm.description = data.description
+      roleForm.status = data.status
+      roleForm.menuIds = data.menus?.map(menu => menu.id) || []
+      drawerVisible.value = true
+    } else {
+      ElMessage.error('获取角色信息失败：' + msg)
     }
-  })
+  } catch {
+    ElMessage.error('获取角色信息失败')
+  }
 }
 
 const handleDelete = (row: Role) => {

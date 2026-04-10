@@ -11,22 +11,23 @@
       </div>
       <el-table v-loading="loading" :data="menuList" row-key="id" border
         :tree-props="{ children: 'children', hasChildren: 'hasChildren' }">
-        <el-table-column prop="name" label="菜单名称" min-width="180" />
+        <el-table-column prop="title" label="菜单名称" min-width="180" />
+        <el-table-column prop="name" label="组件名称" min-width="180" />
         <el-table-column prop="path" label="路径" min-width="180" />
         <el-table-column prop="component" label="组件" min-width="200" />
-        <el-table-column prop="icon" label="图标" width="100">
+        <el-table-column prop="icon" label="图标" width="60" align="center">
           <template #default="{ row }">
             <el-icon v-if="row.icon"><component :is="row.icon" /></el-icon>
           </template>
         </el-table-column>
-        <el-table-column prop="type" label="类型" width="100">
+        <el-table-column prop="type" label="类型" width="80" align="center">
           <template #default="{ row }">
             <el-tag :type="row.type === 'M' ? 'primary' : 'success'">{{ row.type === 'M' ? '菜单' : '按钮' }}</el-tag>
           </template>
         </el-table-column>
-        <el-table-column prop="orderNum" label="排序" width="80" />
+        <el-table-column prop="orderNum" label="排序" width="60" align="center" />
         <el-table-column prop="permission" label="权限标识" min-width="200" />
-        <el-table-column prop="status" label="状态" width="80">
+        <el-table-column prop="status" label="状态" width="80" align="center">
           <template #default="{ row }">
             <el-tag :type="row.status === 1 ? 'success' : 'info'">{{ row.status === 1 ? '显示' : '隐藏' }}</el-tag>
           </template>
@@ -65,7 +66,7 @@ const isEdit = ref(false)
 const treeMenuData = ref<Tree[]>([])
 
 const menuForm = ref<MenuSaveRequest>({
-  id: 0, name: '', path: '', component: '', icon: '', parentId: 0, orderNum: 0, status: 1, permission: '',
+  id: 0, title: '', name: '', path: '', component: '', icon: '', parentId: 0, orderNum: 0, status: 1, permission: '',
   type: ''
 })
 
@@ -73,7 +74,7 @@ const menuForm = ref<MenuSaveRequest>({
 const convertToTree = (menus: MenuData[]): Tree[] => {
   return menus.map(menu => ({
     id: menu.id,
-    label: menu.name,
+    label: menu.title,
     children: menu.children ? convertToTree(menu.children) : [],
     original: menu
   }))
@@ -86,7 +87,7 @@ const processTreeData = (menuList: MenuData[]): Tree[] => {
     id: 0,
     label: '根菜单',
     children: treeData,
-    original: { id: 0, name: '根菜单', path: '/', component: '', icon: '', orderNum: 0, type: 'C', parentId: -1, permission: '', status: 1 }
+    original: { id: 0, title: '根菜单',name:'', path: '/', component: '', icon: '', orderNum: 0, type: 'C', parentId: -1, permission: '', status: 1 }
   }]
 }
 
@@ -132,7 +133,7 @@ const handleEdit = (row: MenuData) => {
 
 // 重置表单
 const resetForm = () => {
-  menuForm.value = { id: 0, name: '', path: '', component: '', icon: '', type: 'M', parentId: 0, orderNum: 0, status: 1, permission: '' }
+  menuForm.value = { id: 0, title: '', name: '', path: '', component: '', icon: '', type: 'M', parentId: 0, orderNum: 0, status: 1, permission: '' }
 }
 
 // 处理删除菜单
